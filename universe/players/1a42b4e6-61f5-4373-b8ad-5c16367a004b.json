@@ -1,0 +1,706 @@
+{
+  "Components": {
+    "UtilityInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 4,
+        "Items": {
+          "0": {
+            "Id": "Weapon_Shield_Iron",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "Furniture_Crude_Torch",
+            "Quantity": 99,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      },
+      "ActiveSlot": 1
+    },
+    "EffectController": {},
+    "ObjectiveHistory": {
+      "ObjectiveHistory": {},
+      "ObjectiveLineHistory": {}
+    },
+    "AbilitySlotsInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 6,
+        "Items": {}
+      }
+    },
+    "Transform": {
+      "Position": {
+        "X": 48.75556945800781,
+        "Y": 68.95976257324219,
+        "Z": 15.321516990661621
+      },
+      "Rotation": {
+        "Pitch": 0.0,
+        "Yaw": 0.08597883582115173,
+        "Roll": 0.0
+      }
+    },
+    "StorageInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 36,
+        "Items": {
+          "0": {
+            "Id": "Wood_Fir_Trunk",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "33": {
+            "Id": "Wood_Hardwood_Planks",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "29": {
+            "Id": "Wood_Hardwood_Stairs",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "25": {
+            "Id": "Furniture_Tavern_Ladder",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "4": {
+            "Id": "Metal_Goblin_Iron_Pipe_Chimney",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "12": {
+            "Id": "Rock_Quartzite_Brick_Decorative",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "13": {
+            "Id": "Rock_Quartzite_Brick_Pillar_Base",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "8": {
+            "Id": "Soil_Grass_Deep",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "9": {
+            "Id": "Build_Grey_Stairs",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "30": {
+            "Id": "Rock_Shale_Cobble",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "28": {
+            "Id": "Furniture_Crude_Bed",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "24": {
+            "Id": "Deco_Treasure_Pile_Large",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "26": {
+            "Id": "Furniture_Village_Trapdoor",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "18": {
+            "Id": "Deco_Rope_Diagonal",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "16": {
+            "Id": "Rock_Shale_Brick",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "17": {
+            "Id": "Furniture_Tavern_Table",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "19": {
+            "Id": "Rock_Quartzite_Brick_Pillar_Middle",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "23": {
+            "Id": "Rock_Shale_Brick_Wall",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "20": {
+            "Id": "Rock_Quartzite_Brick_Wall",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "22": {
+            "Id": "Wood_Hardwood_Fence",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "21": {
+            "Id": "Wood_Hardwood_Planks_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "35": {
+            "Id": "EditorTool_PrefabEditing_SelectPrefab",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "2": {
+            "Id": "Wood_Softwood_Planks_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "27": {
+            "Id": "Rock_Aqua_Brick_Decorative",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "6": {
+            "Id": "Rock_Quartzite_Brick_Smooth_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "15": {
+            "Id": "Soil_Gravel",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "14": {
+            "Id": "Deco_Rope",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "11": {
+            "Id": "Rock_Marble",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "10": {
+            "Id": "Rock_Quartzite_Brick",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "32": {
+            "Id": "Furniture_Tavern_Chair",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "Wood_Hardwood_Fence",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "3": {
+            "Id": "Wood_Softwood_Roof_Shallow",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "34": {
+            "Id": "Rock_Quartzite_Brick_Half",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "7": {
+            "Id": "Soil_Dirt_Lush",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "Wood_Jungle_Trunk_Full",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      }
+    },
+    "HitboxCollision": {
+      "Version": 1,
+      "HitboxCollisionConfigId": "SoftCollision"
+    },
+    "Instance": {
+      "ReturnStack": []
+    },
+    "UUID": {
+      "UUID": {
+        "$binary": "GkK05mH1Q3O4rVwWNnoASw==",
+        "$type": "04"
+      }
+    },
+    "RuneBagInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 50,
+        "Items": {}
+      }
+    },
+    "ArmorInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 4,
+        "Items": {
+          "0": {
+            "Id": "Armor_Cobalt_Head",
+            "Quantity": 1,
+            "Durability": 120.0,
+            "MaxDurability": 120.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "2": {
+            "Id": "Armor_Cobalt_Hands",
+            "Quantity": 1,
+            "Durability": 120.0,
+            "MaxDurability": 120.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "Armor_Cobalt_Chest",
+            "Quantity": 1,
+            "Durability": 120.0,
+            "MaxDurability": 120.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "3": {
+            "Id": "Armor_Cobalt_Legs",
+            "Quantity": 1,
+            "Durability": 120.0,
+            "MaxDurability": 120.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      }
+    },
+    "Nameplate": {
+      "Text": "PhantomPaint"
+    },
+    "BackpackInventory": {
+      "Inventory": {
+        "Id": "Empty"
+      }
+    },
+    "ToolInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 23,
+        "Items": {
+          "0": {
+            "Id": "EditorTool_Paint",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "2": {
+            "Id": "EditorTool_Selection",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "4": {
+            "Id": "EditorTool_Line",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "EditorTool_Sculpt",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "3": {
+            "Id": "EditorTool_Paste",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "EditorTool_Layers",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      },
+      "ActiveSlot": -1
+    },
+    "UIComponentList": {},
+    "HotbarInventory": {
+      "Inventory": {
+        "Id": "Simple",
+        "Capacity": 9,
+        "Items": {
+          "0": {
+            "Id": "Weapon_Club_Cobalt",
+            "Quantity": 1,
+            "Durability": 140.0,
+            "MaxDurability": 140.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "2": {
+            "Id": "Tool_Hatchet_Cobalt",
+            "Quantity": 1,
+            "Durability": 700.0,
+            "MaxDurability": 700.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "6": {
+            "Id": "EditorTool_PrefabEditing_SelectPrefab",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "4": {
+            "Id": "Potion_Health_Small",
+            "Quantity": 10,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "8": {
+            "Id": "Weapon_Arrow_Crude",
+            "Quantity": 100,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "1": {
+            "Id": "Tool_Pickaxe_Cobalt",
+            "Quantity": 1,
+            "Durability": 700.0,
+            "MaxDurability": 700.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "3": {
+            "Id": "Weapon_Crossbow_Iron",
+            "Quantity": 1,
+            "Durability": 250.0,
+            "MaxDurability": 250.0,
+            "OverrideDroppedItemAnimation": false
+          },
+          "5": {
+            "Id": "Deco_Iron_Bars",
+            "Quantity": 1,
+            "Durability": 0.0,
+            "MaxDurability": 0.0,
+            "OverrideDroppedItemAnimation": false
+          }
+        }
+      },
+      "ActiveSlot": 7
+    },
+    "BuilderTools": {
+      "SelectionHistory": true,
+      "LastSavePack": "PhantomPaint:IslandArchipelago"
+    },
+    "Velocity": {
+      "Velocity": {
+        "X": -3.191626288331493,
+        "Y": -4.929473772592439E-57,
+        "Z": -2.06323090469741
+      }
+    },
+    "Player": {
+      "Version": 5,
+      "UUID": {
+        "$binary": "GkK05mH1Q3O4rVwWNnoASw==",
+        "$type": "04"
+      },
+      "Inventory": {
+        "Version": 4,
+        "ActiveHotbarSlot": 0,
+        "ActiveToolsSlot": -1,
+        "ActiveUtilitySlot": -1
+      },
+      "PlayerData": {
+        "BlockIdVersion": 11,
+        "World": "prefabEditor-PhantomPaint",
+        "KnownRecipes": [],
+        "PerWorldData": {
+          "default": {
+            "LastPosition": {
+              "X": 141.58602905273438,
+              "Y": 123.0000991821289,
+              "Z": 266.3505554199219,
+              "Pitch": -0.1472500115633011,
+              "Yaw": -1.5620465278625488,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": false
+            },
+            "FirstSpawn": false,
+            "DeathPositions": [],
+            "UserMarkers": []
+          },
+          "prefabEditor-PhantomPaint": {
+            "LastPosition": {
+              "X": 48.75556945800781,
+              "Y": 68.95976257324219,
+              "Z": 15.321516990661621,
+              "Pitch": -0.2525966465473175,
+              "Yaw": -0.5738783478736877,
+              "Roll": 0.0
+            },
+            "LastMovementStates": {
+              "Flying": true
+            },
+            "FirstSpawn": false,
+            "DeathPositions": [],
+            "UserMarkers": []
+          }
+        },
+        "DiscoveredZones": [
+          "CreativeHub",
+          "Zone1_Spawn"
+        ],
+        "DiscoveredInstances": [
+          {
+            "$binary": "K/WS5sc6RnKSamOuzx366A==",
+            "$type": "04"
+          },
+          {
+            "$binary": "dS+0vhKOQNyk+oWHXuVorQ==",
+            "$type": "04"
+          }
+        ],
+        "ReputationData": {},
+        "ActiveObjectiveUUIDs": []
+      },
+      "BlockPlacementOverride": false,
+      "HotbarManager": {
+        "SavedHotbars": [
+          {
+            "Id": "Simple",
+            "Capacity": 9,
+            "Items": {
+              "0": {
+                "Id": "Weapon_Club_Cobalt",
+                "Quantity": 1,
+                "Durability": 140.0,
+                "MaxDurability": 140.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "2": {
+                "Id": "Tool_Hatchet_Cobalt",
+                "Quantity": 1,
+                "Durability": 700.0,
+                "MaxDurability": 700.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "4": {
+                "Id": "Potion_Health_Small",
+                "Quantity": 10,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "8": {
+                "Id": "Weapon_Arrow_Crude",
+                "Quantity": 100,
+                "Durability": 0.0,
+                "MaxDurability": 0.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "1": {
+                "Id": "Tool_Pickaxe_Cobalt",
+                "Quantity": 1,
+                "Durability": 700.0,
+                "MaxDurability": 700.0,
+                "OverrideDroppedItemAnimation": false
+              },
+              "3": {
+                "Id": "Weapon_Crossbow_Iron",
+                "Quantity": 1,
+                "Durability": 250.0,
+                "MaxDurability": 250.0,
+                "OverrideDroppedItemAnimation": false
+              }
+            }
+          },
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ],
+        "CurrentHotbar": 0
+      },
+      "GameMode": "Creative"
+    },
+    "Invulnerable": {},
+    "UniqueItemUsages": {
+      "UniqueItemUsed": []
+    },
+    "EntityStats": {
+      "Version": 5,
+      "Stats": {
+        "Oxygen": {
+          "Id": "Oxygen",
+          "Value": 100.0
+        },
+        "Mana": {
+          "Id": "Mana",
+          "Value": 100.0
+        },
+        "Health": {
+          "Id": "Health",
+          "Value": 161.0,
+          "Modifiers": {
+            "Armor_ADDITIVE": {
+              "Id": "Static",
+              "CalculationType": "Additive",
+              "Amount": 61.0
+            }
+          }
+        },
+        "GlidingActive": {
+          "Id": "GlidingActive",
+          "Value": 0.0
+        },
+        "Immunity": {
+          "Id": "Immunity",
+          "Value": 0.0
+        },
+        "Stamina": {
+          "Id": "Stamina",
+          "Value": 10.0
+        },
+        "SignatureCharges": {
+          "Id": "SignatureCharges",
+          "Value": 0.0
+        },
+        "Ammo": {
+          "Id": "Ammo",
+          "Value": 0.0
+        },
+        "Unknown": {
+          "Id": "Unknown",
+          "Value": 0.0
+        },
+        "SignatureEnergy": {
+          "Id": "SignatureEnergy",
+          "Value": 0.0
+        },
+        "DeployablePreview": {
+          "Id": "DeployablePreview",
+          "Value": 0.0
+        },
+        "StaminaRegenDelay": {
+          "Id": "StaminaRegenDelay",
+          "Value": 0.0
+        },
+        "MagicCharges": {
+          "Id": "MagicCharges",
+          "Value": 0.0
+        }
+      }
+    },
+    "CreativeHub": {
+      "ParentHubWorldUuid": "41fcdb4c-f8a5-4565-ad04-a4c7b811c5d3"
+    },
+    "HeadRotation": {
+      "Rotation": {
+        "Pitch": -0.2525966465473175,
+        "Yaw": -0.5738783478736877,
+        "Roll": 0.0
+      }
+    }
+  }
+}

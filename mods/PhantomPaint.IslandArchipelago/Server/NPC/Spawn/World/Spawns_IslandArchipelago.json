@@ -1,0 +1,72 @@
+{
+  "Environments": [
+    "Env_IslandArchipelago"
+  ],
+  "NPCs": [
+    {
+      "Id": "Crab",
+      "Weight": 12,
+      "SpawnBlockSet": "Sand"
+    },
+    {
+      "Id": "Tortoise",
+      "Weight": 10,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Gecko",
+      "Weight": 10,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Parrot",
+      "Weight": 8,
+      "SpawnBlockSet": "Birds",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Flamingo",
+      "Weight": 5,
+      "SpawnBlockSet": "Grass"
+    },
+    {
+      "Id": "Tiger_Sabertooth",
+      "Weight": 1.0,
+      "SpawnBlockSet": "Soil"
+    },
+    {
+      "Id": "Crocodile",
+      "Weight": 0.5,
+      "SpawnBlockSet": "Soil",
+      "SpawnFluidTag": "Water"
+    },
+    {
+      "Id": "Clownfish",
+      "Weight": 10,
+      "SpawnFluidTag": "Water",
+      "Flock": "One_Or_Two"
+    },
+    {
+      "Id": "Tang_Blue",
+      "Weight": 10,
+      "SpawnFluidTag": "Water",
+      "Flock": "Group_Small"
+    },
+    {
+      "Id": "Tang_Lemon_Peel",
+      "Weight": 10,
+      "SpawnFluidTag": "Water",
+      "Flock": "Group_Small"
+    },
+    {
+      "Id": "Lobster",
+      "Weight": 4,
+      "SpawnFluidTag": "Water",
+      "Flock": "One_Or_Two"
+    }
+  ],
+  "DayTimeRange": [
+    6,
+    24
+  ]
+}

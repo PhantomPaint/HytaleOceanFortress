@@ -1,0 +1,56 @@
+{
+  "WorldName": "prefabEditor-PhantomPaint",
+  "WorldArrivedFrom": "a2e288ed-b3ff-418c-b230-5e36b089aa13",
+  "TransformArrivedFrom": {
+    "X": -90.23064422607422,
+    "Y": 137.7544708251953,
+    "Z": 968.8529052734375,
+    "Pitch": 0.0,
+    "Yaw": -7.240463733673096,
+    "Roll": 0.0
+  },
+  "WorldCreatorUUID": "1a42b4e6-61f5-4373-b8ad-5c16367a004b",
+  "SpawnPoint": [
+    1,
+    56,
+    1
+  ],
+  "LoadedPrefabMetadata": [
+    {
+      "Path": "\\Server\\Prefabs\\HighSeasPrison.prefab.json",
+      "MinPoint": [
+        -1,
+        54,
+        -1
+      ],
+      "MaxPoint": [
+        1,
+        56,
+        1
+      ],
+      "AnchorPoint": [
+        0,
+        55,
+        0
+      ],
+      "PastePosition": [
+        0,
+        55,
+        0
+      ],
+      "AnchorEntityUuid": "285e940a-892c-369d-a87e-e4936e0e68cb",
+      "AnchorEntityPosition": [
+        0,
+        55,
+        0
+      ],
+      "OriginalFileAnchor": [
+        0,
+        0,
+        0
+      ],
+      "Uuid": "006726f8-b909-4fe2-bf0d-dfd8ecb85cde",
+      "Dirty": false
+    }
+  ]
+}

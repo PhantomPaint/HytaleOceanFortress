@@ -1,0 +1,63 @@
+{
+  "Version": 4,
+  "UUID": {
+    "$binary": "QfzbTPilRWWtBKTHuBHF0w==",
+    "$type": "04"
+  },
+  "DisplayName": "Island Archipelago",
+  "Seed": 1793292304913,
+  "WorldGen": {
+    "Type": "Hytale",
+    "Name": "Default",
+    "Version": "0.0.0"
+  },
+  "WorldMap": {
+    "Type": "WorldGen"
+  },
+  "ChunkStorage": {
+    "Type": "Hytale"
+  },
+  "ChunkConfig": {},
+  "IsTicking": true,
+  "IsBlockTicking": true,
+  "IsPvpEnabled": false,
+  "IsFallDamageEnabled": false,
+  "IsGameTimePaused": false,
+  "GameTime": "0001-01-30T06:03:02.599113478Z",
+  "ClientEffects": {
+    "SunHeightPercent": 100.0,
+    "SunAngleDegrees": 0.0,
+    "BloomIntensity": 0.30000001192092896,
+    "BloomPower": 8.0,
+    "SunIntensity": 0.25,
+    "SunshaftIntensity": 0.30000001192092896,
+    "SunshaftScaleFactor": 4.0
+  },
+  "RequiredPlugins": {},
+  "GameMode": "Creative",
+  "IsSpawningNPC": false,
+  "IsBlockSpawnersEnabled": true,
+  "IsSpawnMarkersEnabled": true,
+  "IsAllNPCFrozen": false,
+  "GameplayConfig": "Default",
+  "IsCompassUpdating": true,
+  "IsSavingPlayers": true,
+  "IsSavingChunks": true,
+  "SaveNewChunks": true,
+  "IsUnloadingChunks": true,
+  "IsObjectiveMarkersEnabled": true,
+  "DeleteOnUniverseStart": false,
+  "DeleteOnRemove": false,
+  "DisabledFluidTickers": [],
+  "ResourceStorage": {
+    "Type": "Hytale"
+  },
+  "Plugin": {
+    "CreativeHub": {
+      "StartupInstance": "Defaults/CreativeHub"
+    },
+    "WorldEvents": {
+      "EnableWorldEvents": false
+    }
+  }
+}

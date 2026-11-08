@@ -1,0 +1,217 @@
+[2026/11/08 15:33:24   INFO]           [HytaleServer] Starting HytaleServer
+[2026/11/08 15:33:24   INFO]           [HytaleServer] Loading config...
+[2026/11/08 15:33:24   INFO]           [HytaleServer] Authentication mode: AUTHENTICATED
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Singleplayer mode, owner: PhantomPaint (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Session token loaded from environment
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Identity token loaded from environment
+[2026/11/08 15:33:24   INFO]   [SessionServiceClient] Session Service client initialized for: https://sessions.hytale.com
+[2026/11/08 15:33:24   INFO]           [JWTValidator] JWKS pre-seeded from embedded resource (1 keys)
+[2026/11/08 15:33:24   INFO]           [JWTValidator] Identity token validated successfully for user PhantomPaint. Token: iss=https://sessions.hytale.com, sub=1a42b4e6-61f5-4373-b8ad-5c16367a004b, scope=hytale:server, iat=2026-11-08T15:33:22Z, exp=2026-11-08T16:33:22Z (+3598s), lifetime=3600s
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Identity token validated for PhantomPaint (1a42b4e6-61f5-4373-b8ad-5c16367a004b)
+[2026/11/08 15:33:24   INFO]           [JWTValidator] Session token validated successfully. Token: iss=https://sessions.hytale.com, sub=1a42b4e6-61f5-4373-b8ad-5c16367a004b, scope=hytale:server, iat=2026-11-08T15:33:22Z, exp=2026-11-08T16:33:22Z (+3598s), lifetime=3600s
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Session token validated
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Auth mode: SINGLEPLAYER
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Token refresh scheduled in 3298 seconds
+[2026/11/08 15:33:24   INFO]      [ServerAuthManager] Server session ID: 7836c222-6165-4959-9870-116d47406456
+[2026/11/08 15:33:24   INFO]           [HytaleServer] Enabling Sentry
+[2026/11/08 15:33:25   INFO]           [HytaleServer] Booting up HytaleServer - Version: 0.7.6, Revision: c540fda164620dc01f5e1b44990ad03edf00814d
+[2026/11/08 15:33:25   INFO]           [HytaleServer] Setup phase...
+[2026/11/08 15:33:25   INFO]          [PluginManager] Loading pending core plugins!
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ConsoleModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:PermissionsModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:UpdateModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:LiveConfigModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:FlyCameraModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:AssetModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:CommonAssetModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:CosmeticsModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ServerManager
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:I18nModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ItemModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockTypeModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:LegacyModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockAnimationModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:CollisionModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockSetModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:MigrationModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockHealthModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:PrefabSpawnerModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:TimeModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:AnchorActionModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:UIModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:InteractionModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:EntityModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:EntityStatsModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:EntityUIModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:DamageModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:SplitVelocity
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:StaminaModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:DebugPlugin
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ProjectileModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ServerPlayerListModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:VoiceModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:AccessControlModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:SingleplayerModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Universe
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:TelemetryModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ConnectedBlocksModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:DiscoveryModule
+[2026/11/08 15:33:25   INFO]          [PluginManager] Loading pending classpath plugins!
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:AssetEditor
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockSpawner
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockTick
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BlockPhysics
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:BuilderTools
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Crafting
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:CommandMacro
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:CompanionBlockSpawner
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:AugmentBlocks
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:GameFlags
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Instances
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:LANDiscovery
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:NPC
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:NPCObjectives
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ObjectiveReputation
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Objectives
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ObjectiveShop
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Path
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Reputation
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:NPCReputation
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Shop
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ShopReputation
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:NPCShop
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:NPCEditor
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Stash
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Beam
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:TagSet
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Teleport
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Fluid
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Weather
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:WorldGen
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Farming
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Camera
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Wilderness
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:WorldLocationCondition
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:NPCCombatActionEvaluator
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Model
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Mantling
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:SafetyRoll
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:SprintForce
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:CrouchSlide
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:FallingBlocks
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Parkour
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Mounts
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:HytaleGenerator
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Teleporter
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Memories
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:GoblinLab
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Deployables
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Portals
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Beds
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:WorldEvents
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Ambience
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Audio
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:CreativeHub
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:RandomTick
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:ReactiveBlocks
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:TriggerVolumes
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Points
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Locate
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:EncounterManager
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:NPCKnockbackDebug
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Abilities
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Hytale:Rewards
+[2026/11/08 15:33:25   INFO]          [PluginManager] Loading pending plugins from directory: mods
+[2026/11/08 15:33:25   INFO]          [PluginManager] Loading pending plugins from directory: E:\Games\Hytale\UserData\Mods
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Alechilles:Alec's Tamework! from path Alec's Tamework! v2.16.1.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Alechilles:Alec's Tamework! (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Alechilles:Alec's Telemetry! from path Alec's Telemetry v1.0.3.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Alechilles:Alec's Telemetry! (Disabled by server config)
+[2026/11/08 15:33:25   WARN]         [PluginManifest] Manifest ServerVersion '2026.03.26-89796e57b' is in the pre-semver YYYY.MM.DD-<sha> format. Treated as wildcard for backward compatibility. Update to a SemverRange.
+[2026/11/08 15:33:25   INFO]          [PluginManager] - com.lol:DungeonCore from path DungeonCore-1.3.7.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod com.lol:DungeonCore (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - org.herolias:DynamicTooltipsLib from path DynamicTooltipsLib-1.6.1.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod org.herolias:DynamicTooltipsLib (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - com.zbeve:el-ophio from path el-ophio-1.3.0.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod com.zbeve:el-ophio (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Config:Endgame&QoL from path EndgameAndQoL5.3.0.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Config:Endgame&QoL (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Zbeve:EndlessEliteMobs from path endless-elite-mobs-2.6.12.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Zbeve:EndlessEliteMobs (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Airijko:EndlessFates from path EndlessFates-1.2.3.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Airijko:EndlessFates (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Airijko:EndlessGuilds from path EndlessGuilds-1.0.0-BETA-13.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Airijko:EndlessGuilds (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Airijko:EndlessLevelingCore from path EndlessLeveling-10.2.0.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Airijko:EndlessLevelingCore (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Airijko:EndlessRifts from path EndlessRifts-4.12.0.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Airijko:EndlessRifts (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - Ellie:HyUI from path HyUI-0.9.8-all.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod Ellie:HyUI (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - MAJOR76:MajorDungeons from path MajorDungeons-0.4.12.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod MAJOR76:MajorDungeons (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - org.herolias:SimpleEnchantments from path SimpleEnchantments-1.1.1.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod org.herolias:SimpleEnchantments (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - StarkyMods:Starky's Mjolnir from path Starky's Mjolnir 1.5.7.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod StarkyMods:Starky's Mjolnir (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - StarkyMods:Starky's Shield Captain America from path Starky's Shield Captain America 1.3.4.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod StarkyMods:Starky's Shield Captain America (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - wanmine:WansWonderWeapon from path WansWonderWeapon-1.0.28.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod wanmine:WansWonderWeapon (Disabled by server config)
+[2026/11/08 15:33:25   INFO]          [PluginManager] - narwhals:Zephyr from path Zephyr-0.3.12.jar
+[2026/11/08 15:33:25   WARN]          [PluginManager] Skipping mod narwhals:Zephyr (Disabled by server config)
+[2026/11/08 15:33:25   INFO]             [Universe|P] Scheduled backup to run every 30 minute(s)
+[2026/11/08 15:33:25   INFO]       [TelemetryStorage] Opened telemetry session file: telemetry\2026-11-08_15-33-25_602af07b.jsonl
+[2026/11/08 15:33:25   INFO]       [TelemetryService] Telemetry service initialized with session ID: 602af07b-6f07-49e4-9de5-6232f8e84990
+[2026/11/08 15:33:26   INFO]      [ServerAuthManager] Server certificate set: CN=Hytale Server
+[2026/11/08 15:33:26   INFO]        [ServerManager|P] Took 86ms 867us 400ns to setup transport!
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|1.0
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Asset monitor enabled!
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Loaded pack: Hytale:Hytale from Assets.zip
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Loading packs from directory: mods
+[2026/11/08 15:33:26   WARN]          [AssetModule|P] Skipping pack at Hytale_HytaleGenerator: missing or invalid manifest.json
+[2026/11/08 15:33:26   WARN]          [AssetModule|P] Skipping pack at Hytale_Shop: missing or invalid manifest.json
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Loaded pack: PhantomPaint:IslandArchipelago from PhantomPaint.IslandArchipelago
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Loading packs from directory: E:\Games\Hytale\UserData\Mods
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Alechilles:Alec's Animal Husbandry!
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Alechilles:Alec's Tamework!
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Alechilles:Alec's Telemetry!
+[2026/11/08 15:33:26   WARN]          [AssetModule|P] Skipping pack at Common: missing or invalid manifest.json
+[2026/11/08 15:33:26   WARN]         [PluginManifest] Manifest ServerVersion '2026.03.26-89796e57b' is in the pre-semver YYYY.MM.DD-<sha> format. Treated as wildcard for backward compatibility. Update to a SemverRange.
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: com.lol:DungeonCore
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: com.zbeve:el-ophio
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Config:Endgame&QoL
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Zbeve:EndlessEliteMobs
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessFates
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessGuilds
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessLevelingCore
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Airijko:EndlessRifts
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: Ellie:HyUI
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: MAJOR76:MajorDungeons
+[2026/11/08 15:33:26   WARN]          [AssetModule|P] Skipping pack at manifest.json: missing or invalid manifest.json
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: PhantomPaint:Goblin Circus
+[2026/11/08 15:33:26   WARN]          [AssetModule|P] Skipping pack at Server: missing or invalid manifest.json
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: org.herolias:SimpleEnchantments
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: StarkyMods:Starky's Mjolnir
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: StarkyMods:Starky's Shield Captain America
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: wanmine:WansWonderWeapon
+[2026/11/08 15:33:26   INFO]          [AssetModule|P] Skipped disabled pack: narwhals:Zephyr
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|2.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|3.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|4.0
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|5.0
+[2026/11/08 15:33:26   INFO]        [ConsoleModule|P] Setup console with type: dumb
+-=|{"MessageId": "client.gameLoadingView.status.settingUp"}|6.0
+[2026/11/08 15:33:26   INFO]         [CommandManager] Console executed command: stop
+server.commands.stop.success
+[2026/11/08 15:33:26   INFO]           [HytaleServer] Shutdown triggered!!!
+[2026/11/08 15:33:26   INFO]           [HytaleServer] Shutting down... 0  'null'
+[2026/11/08 15:33:26   INFO]          [PluginManager] Saving plugins config...
+[2026/11/08 15:33:26   INFO]   [SessionServiceClient] Terminating game session...
+-=|{"MessageId": "client.gameLoadingView.status.shuttingDownModules"}|100.0
+[2026/11/08 15:33:26   INFO]      [ServerAuthManager] Auth credential store: Encrypted
+[2026/11/08 15:33:26   INFO]           [HytaleServer] Setup phase completed! Boot time 2sec 615ms 886us 600ns
+[2026/11/08 15:33:26   INFO]   [SessionServiceClient] Game session terminated
+[2026/11/08 15:33:26   INFO]           [HytaleServer] Saving config...
+[2026/11/08 15:33:26   INFO]           [HytaleServer] Shutdown completed!
